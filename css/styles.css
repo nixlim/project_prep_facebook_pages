@@ -1,4 +1,4 @@
-.headerLogin {
+.headerLogin{
     list-style: none;
     margin: 0;
     background: blue;
@@ -8,37 +8,45 @@
     align-items: center;
 }
 
-.headerLogin a {
+#headerLoggedIn {
+    list-style: none;
+    margin: 0;
+    background: blue;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+
+.headerLogin a, #headerLoggedIn a {
     text-decoration: none;
     display: block;
     padding: 1em;
     color: white;
 }
 
-.headerLogin a:hover {
-    background: #00b7f5;
-}
 
 @media all and (max-width: 800px) {
-    .headerLogin {
+    .headerLogin, #headerLoggedIn {
         justify-content: space-around;
     }
 }
 @media all and (max-width: 600px) {
-    .headerLogin {
+    .headerLogin, #headerLoggedIn {
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
         padding: 0;
     }
 
-    .headerLogin a {
+    .headerLogin, #headerLoggedIn a {
         text-align: center;
         padding: 10px;
         border-top: 1px solid rgba(253, 255, 251, 0.3);
         border-bottom: 1px solid rgb(253, 255, 251);
     }
 
-    .headerLogin li:last-of-type a {
+    .headerLogin li:last-of-type a, #headerLoggedIn li:last-of-type a {
         border-bottom: none;
     }
 }
@@ -100,4 +108,32 @@
 
 #gender {
     display: flex;
+}
+
+#avatarNav {
+    height: auto;
+    width: 60px;
+    flex-basis: auto;
+}
+
+#logo {
+    flex-basis: auto;
+}
+
+#searchBar {
+    flex-basis: auto;
+}
+
+#headerLoggedIn li input{
+    width: 30em;
+}
+
+#userName {
+    flex-grow: 2;
+}
+
+#userName div{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
 }

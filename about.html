@@ -2,17 +2,32 @@
 <html>
 <head>
     <title>Bookface</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
 
-<ul id="headerLoggedIn">
-    <li><img id="avatarNav" src="/images/anonymous-user.png"></li>
-    <li id="logo"><a href="#"><h1>Bookface</h1></a></li>
-    <li><input type="search" id="searchBar" placeholder="Search"></li>
-    <li id="userName"><div><a href="#">Harry</a></div></li>
-</ul>
+<header class="header header--loggedIn">
 
+    <div class="header__section header__section--avatar">
+        <img class="image image--header" src="/images/anonymous-user.png">
+    </div>
+
+    <div class="header__section header__section--logo">
+        <a href="#" class="header__link header__link--title">
+            <h1 class="title title--header">Bookface</h1>
+        </a>
+    </div>
+
+    <div class="header__section header__section--searchBar">
+        <input type="search" class="header__searchBar" placeholder="Search" />
+    </div>
+
+    <div class="header__section header__section--userName">
+        <a href="#" class="header__link header__link--userName">Harry</a>
+    </div>
+
+
+</header>
 
 </body>
 

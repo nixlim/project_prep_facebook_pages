@@ -9,26 +9,26 @@
 
 <header class="header header--anon">
 
-    <div class="header__section header__section--logo">
-        <a href="#" class="header__link header__link--title">
-            <h1 class="title title--header">Bookface</h1>
+    <div class="header-section header-section__logo">
+        <a href="#" class="header__link">
+            <h1 class="title title__header">Bookface</h1>
         </a>
     </div>
 
-    <div class="header__section header__section--form">
+    <div class="header-section header-section__form">
 
         <form action="/">
 
-            <div class="loginSection">
+            <div class="login-section">
 
-                <div class="loginSection__field loginSection__field--email">
-                    <label for="email" class="loginSection__label">Email</label>
-                    <input type="email" class="loginSection__input loginSection__input--email" name="email" placeholder="Email" required />
+                <div class="login-section__field">
+                    <label for="email" class="login-section__label login-section__label-email">Email</label>
+                    <input type="email" class="login-section__input login-section__input-email" name="email" placeholder="Email" required />
                 </div>
 
-                <div class="loginSection__field loginSection__field--password">
-                    <label for="password" class="loginSection__label loginSection__label--password">Password</label>
-                    <input type="password" name="password" class="loginSection__input loginSection__input--password" placeholder="Password" required />
+                <div class="login-section__field">
+                    <label for="password" class="login-section__label login-section__label-password">Password</label>
+                    <input type="password" name="password" class="login-section__input login-section__input-password" placeholder="Password" required />
                     <input type="submit" value="Log In" />
                 </div>
 
@@ -40,56 +40,56 @@
 <div class="mainArea">
 
     <div class="story">
-        <h1 class="title title--story">Connect with all your friends!</h1>
+        <h1 class="title title__story">Connect with all your friends!</h1>
         <ul class="story__list">
-            <li class="listItem">
-                <strong class="listItem__text">See photos and updates</strong> <span class="listItem__text--small">in your news feed</span>
+            <li class="list-item">
+                <strong class="list-item__text">See photos and updates</strong> <span class="list-item__text--small">in your news feed</span>
             </li>
-            <li class="listItem">
-                <strong class="listItem__text">Post your status for the world to see</strong> <span class="listItem__text--small">from your profile</span>
+            <li class="list-item">
+                <strong class="list-item__text">Post your status for the world to see</strong> <span class="list-item__text--small">from your profile</span>
             </li>
-            <li class="listItem">
-                <strong class="listItem__text">Get in touch with your friends</strong> <span class="listItem__text--small">by smashing their faces with your favourite book</span>
+            <li class="list-item">
+                <strong class="list-item__text">Get in touch with your friends</strong> <span class="list-item__text--small">by smashing their faces with your favourite book</span>
             </li>
-            <li class="listItem">
-                <strong class="listItem__text">Like things</strong> <span class="listItem__text--small">because of adrenaline rush which follows every "bookfacing"</span>
+            <li class="list-item">
+                <strong class="list-item__text">Like things</strong> <span class="list-item__text--small">because of adrenaline rush which follows every "bookfacing"</span>
             </li>
         </ul>
     </div>
 
-    <div class="signupForm">
+    <div class="signup-form">
         <form action="#">
-            <h1 class="title title--signupForm">Sign Up</h1>
+            <h1 class="title title__signup-form">Sign Up</h1>
 
-            <div class="signupForm__nameUser">
-                <input type="text" name="firstName" class="signupForm__input signupForm__input--firstName" autofocus placeholder="First Name" required />
-                <input type="text" name="lastName" class="signupForm__input signupForm__input--lastName" placeholder="Last Name" required />
+            <div class="signup-form__name-user">
+                <input type="text" name="firstName" class="signup-form__input signup-form__input-first-name" autofocus placeholder="First Name" required />
+                <input type="text" name="lastName" class="signup-form__input signup-form__input-last-name" placeholder="Last Name" required />
             </div>
 
             <br />
 
-            <div class="signupForm__emailUser">
-                <input type="email" name="email" class="signupForm__input signupForm__input--email signupForm__input--wide" placeholder="Your Email" required />
+            <div class="signup-form__email-user">
+                <input type="email" name="email" class="signup-form__input signup-form__input-email signup-form__input--wide" placeholder="Your Email" required />
             </div>
 
             <br />
 
-            <div class="signupForm__passwordNew">
-                <input type="password" name="password" class="signupForm__input signupForm__input--password signupForm__input--wide" placeholder="Your New Password" required />
+            <div class="signup-form__password-new">
+                <input type="password" name="password" class="signup-form__input signup-form__input-password signup-form__input--wide" placeholder="Your New Password" required />
             </div>
 
             <br />
 
-            <div class="signupForm__passwordConfirm">
-                <input type="password" name="password_confirm" class="signupForm__input signupForm__input--password-confirm signupForm__input--wide" placeholder="Confirm Your Password" required />
+            <div class="signup-form__password-confirm">
+                <input type="password" name="password-confirm" class="signup-form__input signup-form__input-password-confirm signup-form__input--wide" placeholder="Confirm Your Password" required />
             </div>
 
             <br />
 
-            <div class="signupForm__birthDay">
-                <label for="bday" class="signupForm__label signupForm__label--birthday">Birthday</label>
-                <div class="signupForm__birthDay--selector">
-                    <select name="DOBMonth" class="signupForm__birthDay--selectorMonth">
+            <div class="signup-form__birthday">
+                <label for="bday" class="signup-form__label signup-form__label-birthday">Birthday</label>
+                <div class="signup-form__birthday-selector">
+                    <select name="DOBMonth" class="signup-form__birthday-selector-month">
                         <option> - Month - </option>
                         <option value="January">January</option>
                         <option value="Febuary">Febuary</option>
@@ -105,7 +105,7 @@
                         <option value="December">December</option>
                     </select>
 
-                    <select name="DOBDay" class="signupForm__birthDay--selectorDay">
+                    <select name="DOBDay" class="signup-form__birthday-selector-day">
                         <option> - Day - </option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -140,7 +140,7 @@
                         <option value="31">31</option>
                     </select>
 
-                    <select name="DOBYear" class="signupForm__birthDay--selectorYear">
+                    <select name="DOBYear" class="signup-form__birthday-selector-year">
                         <option> - Year - </option>
                         <option value="2000">2000</option>
                         <option value="1999">1999</option>
@@ -204,22 +204,22 @@
 
             <br />
 
-            <div class="signupForm__gender">
-                <div class="signupForm__gender--male">
-                    <input type="radio" name="gender" class="signupForm__input signupForm__input--gender signupForm__input--genderMale" value="m" />
-                    <label for="gender" class="signupForm__label signupForm__label--gender signupForm__label--genderMale">Male</label>
+            <div class="signup-form__gender">
+                <div class="signup-form__gender-male">
+                    <input type="radio" name="gender" class="signup-form__input signup-form__input-gender signup-form__input-male" value="m" />
+                    <label for="gender" class="signup-form__label signup-form__label-gender signup-form__label-male">Male</label>
                 </div>
 
-                <div class="signupForm__gender--female">
-                    <input type="radio" name="gender" class="signupForm__input signupForm__input--gender signupForm__input--genderFemale" value="f" />
-                    <label for="gender" class="signupForm__label signupForm__label--gender signupForm__label--genderFemale">Female</label>
+                <div class="signup-form__gender-female">
+                    <input type="radio" name="gender" class="signup-form__input signup-form__input-gender signup-form__input-female" value="f" />
+                    <label for="gender" class="signup-form__label signup-form__label-gender signup-form__label-female">Female</label>
                 </div>
             </div>
 
             <br />
 
-            <div class="signupForm__button">
-                <input type="submit" class="signupForm__input signupForm_input--button signupForm__input--wide" value="Sign Up!" />
+            <div class="signup-form__button">
+                <input type="submit" class="signup-form__input signup-form_input-button signup-form__input--wide" value="Sign Up!" />
             </div>
 
         </form>

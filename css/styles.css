@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-.header__section {
+.header-section {
     text-decoration: none;
     display: block;
     padding: 1em;
@@ -21,7 +21,7 @@
     text-decoration: none;
 }
 
-.title--header {
+.title__header {
     color: white;
 }
 
@@ -31,16 +31,16 @@
     }
 }
 
-.loginSection {
+.login-section {
     display: flex;
     -webkit-flex-flow: row;
 }
 
-.loginSection__field {
+.login-section__field {
     display: inline-block;
 }
 
-.loginSection__label {
+.login-section__label {
     display: block;
 }
 
@@ -51,35 +51,35 @@
     margin: 0 3% 0 10%;
 }
 
-.listItem__text {
+.list-item__text {
     color: #717171;
 }
 
-.signupForm {
+.signup-form {
     display: flex;
     -webkit-flex-flow: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.signupForm__input--wide {
+.signup-form__input--wide {
     width: 99%;
 }
 
-.signupForm__birthDay {
+.signup-form__birthday {
     display: flex;
     flex-direction: column;
 }
 
-.signupForm__birthDay--selector {
+.signup-form__birthday-selector {
     display: flex;
 }
 
-.signupForm__gender {
+.signup-form__gender {
     display: flex;
 }
 
-.signupForm_input--button {
+.signup-form_input-button {
     background: green;
     color: white;
     text-decoration: solid;
@@ -91,21 +91,21 @@
     border-radius: 5px;
 }
 
-.image--header {
+.image__header {
     height: auto;
     width: 60px;
     flex-basis: auto;
 }
 
-.header__searchBar {
+.header__searchbar {
     width: 30em;
 }
 
-.header__section--userName {
+.header-section__username {
     flex-grow: 1;
     text-align: right;
 }
 
-.header__link--userName {
+.header__link-username {
     color: white;
 }

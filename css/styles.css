@@ -62,6 +62,10 @@
     align-items: center;
 }
 
+.signup-form__field {
+    padding-top: 10px;
+}
+
 .signup-form__input--wide {
     width: 99%;
 }
